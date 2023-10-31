@@ -19,6 +19,7 @@ encoding:       UTF-8
 exclude:
   - .git/
   - .github/
+  - assets/scss/
   - build/
   - js/
   - node_modules/
