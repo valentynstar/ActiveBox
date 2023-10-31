@@ -20,6 +20,7 @@ exclude:
   - .git/
   - .github/
   - assets/scss/
+  - style.scss
   - build/
   - js/
   - node_modules/
