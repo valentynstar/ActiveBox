@@ -26,8 +26,7 @@
 	.btn_download{
 		display: block;
 		margin: 0 auto;
-		width: 205px;
-		padding-left: 3.3%;
+		max-width: 205px;
 	}
 }
 
@@ -88,9 +87,6 @@
 		display: flex;
 		justify-content: center;
 	}
-	.btn_download{
-		padding-left: 4%;
-	}
 }
 @media (max-width: 767px){
 	.nav-menu ul.menu li a{
@@ -114,27 +110,9 @@
 	.img-box-servise{
 		margin-top: 20px;
 	}
-	.btn_download{
-		padding-left: 5%;
-	}
 	.owl_carousel_text_name {
 		display: flex;
 		justify-content: center;
-	}
-}
-@media (max-width: 830px){
-	.btn_download {
-		padding-left: 5%;
-	}
-}
-@media (max-width: 700px){
-	.btn_download {
-		padding-left: 6%;
-	}
-}
-@media (max-width: 600px){
-	.btn_download{
-		padding-left: 7%;
 	}
 }
 @media (max-width: 500px){
@@ -147,9 +125,6 @@
 	}
 	.wrapp_baner h1{
 		line-height: 100%;
-	}
-	.btn_download{
-		padding-left: 8%;
 	}
 	.owl_carousel_text_name {
 		font-size: 14px;
@@ -188,6 +163,10 @@
 		margin: 0 auto;
 		padding-bottom: 20px;
 	}
+	.footer-collection-location-name,
+	.about {
+		padding-top: 40px;
+	}
 	.nav-menu ul.menu li.item-menu a.link-menu{
 		font-size: 11px;
 		font-weight: bold;
@@ -195,19 +174,17 @@
 	.wrapp_baner h1{
 		font-size: 16px;
 	}
-	.btn_download {
-		max-width: 180px;
-	}
 	.owl_carousel_text {
 		font-size: 18px;
 		line-height: 30px;
 	}
 	.footer-collection {
-		padding-bottom: 50px;
+		padding-bottom: 40px;
 	}
 	.footer-collection-share-name {
 		padding-top: 40px;
 	}
+	
 
 }
 
@@ -217,9 +194,6 @@
 	}
 	.download-main-text {
 		font-size: 20px;
-	}
-	.btn_download {
-		max-width: 160px;
 	}
 }
 
